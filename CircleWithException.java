@@ -29,7 +29,7 @@ public class CircleWithException{
     {
         if(PI*this.radius*this.radius > 1000)
         {
-            throw new Exception("Radius with area greater than 1000 not allowed");
+            throw new Exception("Radius greater than 1000 not allowed");
         }
         return(PI*this.radius*this.radius);
     }
